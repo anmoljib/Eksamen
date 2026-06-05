@@ -62,6 +62,6 @@ document.getElementById("addTipBtn").addEventListener("click", async () => {
 
   document.getElementById("searchInput").value = "";
   errorMsg.textContent = "";
+  loadTips();
 });
-
 loadTips();
